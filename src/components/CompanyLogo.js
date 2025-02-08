@@ -1,18 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import cisco from '../logos/cisco.png';
-import googleImg from '../logos/google.png';
+import cisco from '../logos/cisco1.jpg';
+// import googleImg from '../logos/google.png';
 import jpmorgan from '../logos/JPMorgan.png'
 import salesforce from '../logos/salesforce.png'
 import microsoft from '../logos/Microsoft.png'
+import googleImg from "../logos/Google-Logo (1).png"
+import './company-logo.css';  // Add this import to apply the styles
+
 
 function CompanyLogo() {
   const companies = [
-    { name: 'Company A', logo: googleImg },
-    { name: 'Company B', logo: cisco },
-    { name: 'Company C', logo: jpmorgan },
-    { name: 'Company D', logo:  salesforce},
-    { name: 'Company E', logo: microsoft },
+    { name: 'GOOGLE', logo: googleImg },
+    { name: 'CISCO', logo: cisco },
+    { name: 'JP MORGAN', logo: jpmorgan },
+    { name: 'SALESFORCE', logo:  salesforce},
+    { name: 'MICROSOFT', logo: microsoft },
   ];
 
   return (

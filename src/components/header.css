@@ -1,0 +1,66 @@
+/* Add a blue block at the top of the header */
+header {
+    background-color: #1E3A8A;  /* Blue background color */
+    color: hsl(256, 91%, 17%); /* White text */
+    padding: 20px 0; /* Padding around the header */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space between logo and text */
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+  }
+  
+  /* Optional: Add a separate blue block at the top */
+  .header-top-block {
+    background-color: #1E3A8A; /* Blue block color */
+    height: 10px; /* Set the height of the blue block */
+    width: 100%; /* Make it span the full width */
+  }
+  .img:hover{
+    display:none;
+  }
+  
+  /* Flex container for horizontal alignment */
+  .header-content {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    justify-content: start; /* Align the items to the start (left) */
+    gap: 10px; /* Space between logo and text */
+  }
+  
+  /* Styling the company logo */
+  .company-logo {
+    width: 100px;  /* Set the width of the logo */
+    height: 100px;  /* Keep aspect ratio */
+  }
+  
+  /* Styling for the header text */
+  .header-text {
+    display: flex;
+    flex-direction: column; /* Stack text vertically */
+    justify-content: center; /* Vertically center the text */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    /* Remove any effects or extra styling */
+    text-decoration: none;  /* Remove underline or any other text decoration */
+    font-style: normal; /* Ensure it's not italicized */
+    font-weight: normal;  /* Remove any bold styling */
+  }
+  
+  p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  /* No styling should apply to 'relanto' title specifically */
+  h1.relanto-title {
+    font-size: 2rem;  /* Set your custom font size */
+    font-weight: normal;  /* No bold effect */
+    font-style: normal;  /* Normal font style */
+    text-decoration: none;  /* No underline */
+  }
+  
