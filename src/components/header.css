@@ -2,19 +2,19 @@
 header {
     background-color: #1E3A8A;  /* Blue background color */
     color: hsl(256, 91%, 17%); /* White text */
-    padding: 20px 0; /* Padding around the header */
+    /* padding: 10px 0; Padding around the header */
     display: flex;
     align-items: center; /* Vertically center content */
     justify-content: space-between; /* Space between logo and text */
     padding-left: 20px;
     padding-right: 20px;
-    height: 100px;
+    /* height: 100px; */
   }
   
   /* Optional: Add a separate blue block at the top */
   .header-top-block {
     background-color: #1E3A8A; /* Blue block color */
-    height: 10px; /* Set the height of the blue block */
+    /* height: 10px; Set the height of the blue block */
     width: 100%; /* Make it span the full width */
   }
   .img:hover{
@@ -26,13 +26,13 @@ header {
     display: flex;
     align-items: center; /* Vertically center the items */
     justify-content: start; /* Align the items to the start (left) */
-    gap: 10px; /* Space between logo and text */
+    /* gap: 10px; Space between logo and text */
   }
   
   /* Styling the company logo */
   .company-logo {
     width: 100px;  /* Set the width of the logo */
-    height: 100px;  /* Keep aspect ratio */
+    /* height: 100px;  Keep aspect ratio */
   }
   
   /* Styling for the header text */
